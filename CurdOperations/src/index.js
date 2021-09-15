@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import ListData from './CurdOperationsUsingApi/listdata';
 import './index.css';
-import Curd from './CurdExample/Curd';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Curd/>
+    <ListData/>
   </React.StrictMode>,
   document.getElementById('root')
 );
